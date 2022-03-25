@@ -1,3 +1,4 @@
+set shell=/bin/bash
 
 "*****************************************************************************
 "" Basic Setup
@@ -41,6 +42,7 @@ set mousemodel=popup " right click doesnt trigger visual mode
 set completeopt=menu,menuone,noselect
 
 set mouse=n
+set mouse-=a
 set nofoldenable
 set foldmethod=expr
 set foldexpr=nvim_treesitter#foldexpr()

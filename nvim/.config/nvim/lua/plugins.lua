@@ -21,8 +21,6 @@ require('packer').startup(function()
     use 'hrsh7th/cmp-vsnip'
     use 'hrsh7th/vim-vsnip'
     use 'rafamadriz/friendly-snippets'
-    --use 'github/copilot.vim'
-    --use {'tzachar/cmp-tabnine', run='./install.sh', requires = 'hrsh7th/nvim-cmp'}
 
     -- themes:
     use 'arcticicestudio/nord-vim'
@@ -69,4 +67,3 @@ require('packer').startup(function()
     use 'tpope/vim-surround'    -- Use cs\--' to change \--example\-- into 'example', for instance
     use 'wesQ3/vim-windowswap'  -- Swaps window <leader>ww to select and swap
 end)
-

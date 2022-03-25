@@ -46,8 +46,3 @@ set completeopt=menuone,noinsert,noselect
 
 " Avoid showing message extra message when using completion
 set shortmess+=c
-
-imap <silent><script><expr> <Right> copilot#Accept("\<Right>")
-let g:copilot_no_tab_map = v:true
-
-
